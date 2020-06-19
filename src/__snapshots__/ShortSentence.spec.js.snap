@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShortSentence /> component render should match snapshot 1`] = `"<section><h4>Ingresa una frase</h4><input value=\\"\\"/><button>cortar</button><h4 id=\\"frase-cortada\\">la frase cortada es: </h4></section>"`;

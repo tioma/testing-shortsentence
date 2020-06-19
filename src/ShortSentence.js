@@ -27,16 +27,17 @@ export default class ShortSentence extends React.Component {
     }
     this.setState({ shortSentence });
   };
+
   render() {
     return (
-      <div>
+      <section>
         <h4>Ingresa una frase</h4>
         <input value={this.state.sentence} onChange={this.handleChange} />
         <button onClick={this.shortSentence}>cortar</button>
         <h4 id="frase-cortada">
           la frase cortada es: {this.state.shortSentence}
         </h4>
-      </div>
-    );
+      </section>
+    );--
   }
 }
